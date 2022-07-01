@@ -1,0 +1,13 @@
+{
+  "name": "graphql-study-photo-share-api",
+  "packageManager": "yarn@3.2.1",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "nodemon -e js,json,graphql"
+  },
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.18"
+  }
+}
